@@ -1,0 +1,26 @@
+.task{
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+
+.edit{
+    width: 60px;
+    margin-right: 10px;
+    border: none;
+    background-color: green;
+    border-radius: 50px;
+    color: white;
+    padding-block: 5px;
+    cursor: pointer;
+}
+
+.delete{
+    width: 60px;
+    border: none;
+    background-color: red;
+    border-radius: 50px;
+    color: white;
+    padding-block: 5px;
+    cursor: pointer;
+}

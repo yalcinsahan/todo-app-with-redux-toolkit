@@ -1,0 +1,36 @@
+.main{
+    display: flex;
+    padding-block: 20px;
+    height: 40px;
+}
+
+.todo-input{
+    flex: 3;
+    border-radius: 50px;
+    border: none;
+    outline: none;
+    background-color: whitesmoke;
+    padding-left: 20px;
+}
+
+.add-button{
+    flex: 1;
+    margin-left: 10px;
+    border-radius: 30px;
+    border: none;
+    background-color: blue;
+    color: white;
+    font-size: 1rem;
+    cursor: pointer;
+}
+
+.edit-button{
+    flex: 1;
+    margin-left: 10px;
+    border-radius: 30px;
+    border: none;
+    background-color: green;
+    color: white;
+    font-size: 1rem;
+    cursor: pointer;
+}
