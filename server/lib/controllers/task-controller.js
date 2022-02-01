@@ -2,7 +2,6 @@ import Task from '../models/task.js'
 
 export const createTask = (req, res) => {
     Task.create({
-        id: req.body.id,
         text: req.body.text,
     })
         .then(response => res.send(response))
